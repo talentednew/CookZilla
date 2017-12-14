@@ -1,0 +1,71 @@
+.post{
+		width: 90px;
+	    height: 28px;
+	    line-height: 26px;
+	    border: 1px solid #1e80c2;
+	    background: #3498db;
+	    color: #fff;
+	    cursor: pointer;
+	    border-radius: 50px;
+	    transition: all 0.3s ease;
+	    float:right;
+	    margin: 19px;
+    	margin-right: 22px;
+}
+.recipeTag {
+	margin-top: 10px;
+	margin-bottom:20px;
+}
+		
+.recipeTag .title {
+	margin-bottom: 10px;
+    border-bottom: 1px solid #cac5c5;
+    height: 30px;
+	text-indent:1em;
+	font-size:18px;
+	color:#ccc;
+}
+.recipeTag .recipes {
+	margin-left:10px;
+}
+.recipeTag .recipes .recipe {
+    width: 230px;
+    height: 300px;
+    background: #ccc;
+    margin: 20px;
+    float: left;
+    margin-right:20px;
+    cursor:pointer;
+    transition:all 0.2s ease;
+}
+
+.recipeTag .recipes .recipe:hover {
+	transform:scale(1.05);
+}
+	
+.recipeTag .recipes .recipe div {
+	text-align:center;
+}
+	
+.recipe-banner {
+	background: #ccc;
+    color: #fff;
+}
+
+
+.recipe-title {
+	font-size :18px;
+	margin-left: 0px;
+}
+	
+.recipe-info {
+	background: #ccc;
+    height: 50px;    
+    line-height: 16px;
+    font-size: 12px;
+}
+
+.recipe-description {
+	margin-left: 0%;
+	margin-top:6%
+}

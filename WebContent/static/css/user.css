@@ -1,0 +1,115 @@
+	.wrap {
+		margin:20px auto;
+		width:1000px;
+	}
+	
+	.left {
+		width: 70%;
+		float:left;
+	}
+	
+	.headerPic{
+		font-family: Verdana", sans-serif;
+		line-height:30px;
+		border-radius: 5000px;
+		float:left;
+	}
+	
+	.username {
+		text-align: center;
+	    font-size: 14px;
+	    color: #565353;
+	    margin-top:20px;
+	}
+	
+	.shortProfile {
+		text-align: center;
+	    font-size: 14px;
+	    color: #565353;
+	    margin-top:20px;
+	}
+	
+	.joinTime{
+		text-align: center;
+	    font-size: 14px;
+	    color: #565353;
+	    margin-top:20px;
+	}
+	
+	.wrap hr {
+		opacity:0.6;
+		margin-bottom:30px;
+	}
+	
+	.recipe .content p{
+		text-indent:2em;
+		margin-bottom:20px;
+		font-family: Verdana, sans-serif;
+	}
+	
+	.demo_line{
+    letter-spacing: -1px;
+    color: #ddd;
+    font-size:12px;
+    margin-left:5%;
+	}
+	
+	.demo_line span{
+    letter-spacing: 0;
+    color: #222;
+    margin:0 150px;
+    }
+	
+	.recipe .left_in_recipe{
+		width: 70%;
+		float:left;
+		position:relative;
+	}
+	
+	.recipe .right_in_recipe{
+		width: 30%;
+		float:right;
+		margin-bottom:10%;
+		margin-right:130px;
+		margin-top:-100px;
+		position:relative;
+	}
+	
+	.right {
+		width: 30%;
+		float:right;
+		text-align:right;
+	}
+	
+	.recipes .recipe {
+		width: 200px;
+	    height: 28px;
+	    border: 1px solid #1e80c2;
+	    background: #3498db;
+	    color: #fff;
+	    cursor: pointer;
+	    border-radius: 15px;
+	    transition: all 0.3s ease;
+	    float:right;
+	    margin: 19px;
+    	margin-right: -22px;
+	}
+	
+	.clearfix {
+		clear: both;
+	}
+	
+	.header_pic {
+	    position: relative;
+	    top: 18px;
+	    left: -16px
+	}
+	
+	.comment_word p {
+		text-indent: 8px;
+		font-family: "Verdana", sans-serif;;
+	}
+	
+	.comment_word {
+    	margin-top:16px;
+	}

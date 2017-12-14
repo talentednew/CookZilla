@@ -1,0 +1,112 @@
+body {
+	background:#96b6d2;
+	overflow:hidden;
+}
+.content {
+	width: 368px;
+    height: 560px;
+    margin: 10px 300px;
+    background: #bfcbd8;
+    background: rgba(84, 144, 218, 0.35);
+    border-radius: 6px;
+}
+
+.content .logo {
+	text-align: center;
+	line-height: 40px; 
+	color: #fff;
+	font-size:30px;
+	position: relative;
+   	top: 26px;
+}
+
+.content .inputBox {
+	position: relative;
+	height: 0px;
+   	opacity: 0.6;
+   	margin-left: 4px;
+   	margin-top:12%;
+}
+.content .inputBox input{
+	width: 70%;
+    height: 20px;
+    padding-left: 4px;
+    line-height: 18px;
+    font-size: 18px;
+    background: #e2e9f9;
+	color: #464242;
+    border: none;
+    border-radius: 2px;
+}
+
+.content .category {
+    font-family: "Verdana";
+    height: 10px;
+    opacity: 0.6;
+	margin-top:3%;
+}
+
+.content .ingredient {
+    font-family: "Verdana";
+    top: 50px;
+    height: 15px;
+    margin-left:4px;
+   	opacity: 0.6;
+   	width:70%;
+    margin-top:10%;
+}
+
+.content .ingredient_more {
+    font-family: "Verdana";
+    height: 10px;
+    opacity: 0.6;
+    margin-top:0%;
+}
+
+.content .data {
+    font-family: "Verdana";
+    height: 15px;
+    margin-left:4px;
+    opacity: 0.6;
+    margin-top:1%;
+    width:70%;
+}
+
+.content .upload {
+    font-family: "Verdana";
+    height: 10px;
+    opacity: 0.6;
+    margin-top:5%;
+    font-size:12px;
+    margin-left: 0px;
+}
+
+.contentBox .content_input{
+	width: 70%;
+    height: 70px;
+    margin-left: 4px;
+    border: 1px solid #d0d5d9;
+    box-shadow: inset 1px 1px 5px #ccc;
+    margin-top:3%;
+}
+	
+.content .submit_btn{
+    width: 70%;
+    height: 46px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    font-family: "Verdana";
+    background: #458fce;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    margin-top:5px;
+    margin-left:-25px;
+}
+
+.content .submit_btn:hover {
+	 background: #3499da;
+}
+
+

@@ -1,0 +1,197 @@
+.post{
+		width: 90px;
+	    height: 28px;
+	    line-height: 26px;
+	    border: 1px solid #1e80c2;
+	    background: #3498db;
+	    color: #fff;
+	    cursor: pointer;
+	    border-radius: 2px;
+	    transition: all 0.3s ease;
+	    float:right;
+	    margin: 19px;
+    	margin-right: 22px;
+}
+
+.recipeTag {
+	margin-top: 10px;
+	margin-bottom:20px;
+}
+		
+.recipeTag .title {
+	margin-bottom: 10px;
+    border-bottom: 1px solid #cac5c5;
+    height: 30px;
+	text-indent:1em;
+	font-size:18px;
+	color:#666;
+}
+.recipeTag .recipes {
+	margin-left:10px;
+}
+.recipeTag .recipes .recipe {
+    width: 230px;
+    height: 300px;
+    background: #ccc;
+    margin: 20px;
+    float: left;
+    margin-right:20px;
+    cursor:pointer;
+    transition:all 0.2s ease;
+}
+
+.recipeTag .recipes .recipe:hover {
+	transform:scale(1.05);
+}
+	
+.recipeTag .recipes .recipe div {
+	text-align:center;
+}
+	
+.recipe-banner {
+	background: #ccc;
+    color: #fff;
+}
+
+
+.recipe-title {
+	font-size :18px;
+	margin-left: 0px;
+}
+	
+.recipe-info {
+	background: #ccc;
+    height: 50px;    
+    line-height: 16px;
+    font-size: 12px;
+}
+
+.recipe-description {
+	margin-left: 0%;
+	margin-top:6%
+}
+
+
+.groupTag {
+	margin-top: 10px;
+	margin-bottom:20px;
+}
+		
+.groupTag .title {
+	margin-bottom: 10px;
+    border-bottom: 1px solid #cac5c5;
+    height: 30px;
+	text-indent:1em;
+	font-size:18px;
+	color:#666;
+}
+.groupTag .groups {
+	margin-left:10px;
+}
+.groupTag .groups .group {
+    width: 230px;
+    height: 250px;
+    background: #ccc;
+    margin: 20px;
+    float: left;
+    margin-right:20px;
+    cursor:pointer;
+    transition:all 0.2s ease;
+    border-radius:50px;
+}
+
+.groupTag .groups .group:hover {
+	transform:scale(1.05);
+}
+	
+.groupTag .groups .group div {
+	text-align:center;
+}
+	
+.group-banner {
+	background: #666;
+    color: #FFF;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    height:170px;
+}
+	
+.group-title {
+	font-size: 20px;
+	top: 60px;
+	position: relative;    
+}
+		
+.group-description {
+	background: #22c6ee;
+    height: 80px;
+    font-size: 12px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+}
+
+.eventTag {
+	margin-top: 10px;
+	margin-bottom:20px;
+}
+		
+.eventTag .title {
+	margin-bottom: 10px;
+    border-bottom: 1px solid #cac5c5;
+    height: 30px;
+	text-indent:1em;
+	font-size:18px;
+	color:#666;
+}
+.eventTag .events {
+	margin-left:10px;
+}
+.eventTag .events .event {
+    width: 230px;
+    height: 320px;
+    background: #ccc;
+    margin: 20px;
+    float: left;
+    margin-right:20px;
+    cursor:pointer;
+    transition:all 0.2s ease;
+    border-top-left-radius:30px;
+    border-bottom-right-radius:30px;
+}
+
+.eventTag .events .event:hover {
+	transform:scale(1.05);
+}
+	
+.eventTag .events .event div {
+	text-align:center;
+}
+	
+.event-banner {
+	background: #0e665e;
+    color: #FFF;
+    border-top-left-radius:30px;
+    height:140px;
+}
+	
+.event-header {
+	font-size: 12px;
+    line-height: 52px;
+}
+	
+.event-title {
+    font-size: 22px;	
+}
+	
+.event-author {
+    font-size: 14px;
+    text-indent: 7em;
+    padding-bottom: 70px;
+}
+	
+.event-description {
+	background: #ffda1d;
+    height: 180px;
+    font-size: 12px;
+    border-bottom-right-radius:30px;
+}

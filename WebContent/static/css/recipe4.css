@@ -1,0 +1,120 @@
+	.wrap {
+		margin:20px auto;
+		width:1000px;
+	}
+	
+	.left {
+		width: 70%;
+		float:left;
+	}
+	
+	.recipe{
+		font-family: Verdana", sans-serif;
+		line-height:30px;
+	}
+	
+	.recipe .title {
+		text-align: center;
+	    font-size: 28px;
+	    color: #565353;
+	    letter-spacing: 2px;
+	    margin-top:20px;
+	}
+	
+	.recipe .light-font{
+		font-size:12px;
+		color:#666;
+	}
+	
+	.recipe .info{
+		font-size:12px;
+		color:#3c3a3a;
+	}
+	
+	.wrap hr {
+		opacity:0.6;
+		margin-bottom:30px;
+	}
+	
+	.recipe .content p{
+		text-indent:2em;
+		margin-bottom:20px;
+		font-family: Verdana, sans-serif;
+	}
+	
+	.demo_line{
+    letter-spacing: -1px;
+    color: #ddd;
+    font-size:12px;
+    margin-left:5%;
+	}
+	
+	.demo_line span{
+    letter-spacing: 0;
+    color: #222;
+    margin:0 150px;
+    }
+	
+	.recipe .left_in_recipe{
+		width: 70%;
+		float:left;
+		position:relative;
+	}
+	
+	.recipe .right_in_recipe{
+		width: 30%;
+		float:right;
+		margin-bottom:10%;
+		margin-right:130px;
+		margin-top:-100px;
+		position:relative;
+	}
+	
+	
+	.commentBox .comment_input{
+		width: 100%;
+	    height: 70px;
+	    padding: 9px;
+	    border: 1px solid #d0d5d9;
+	    box-shadow: inset 1px 1px 5px #ccc;
+	}
+	
+	.commentBox .button{
+		width: 90px;
+	    height: 28px;
+	    line-height: 26px;
+	    border: 1px solid #1e80c2;
+	    background: #3498db;
+	    color: #fff;
+	    cursor: pointer;
+	    border-radius: 2px;
+	    transition: all 0.3s ease;
+	    float:right;
+	    margin: 19px;
+    	margin-right: -22px;
+	}
+	
+	.right {
+		width: 30%;
+		float:right;
+		text-align:right;
+	}
+	
+	.clearfix {
+		clear: both;
+	}
+	
+	.header_pic {
+	    position: relative;
+	    top: 18px;
+	    left: -16px
+	}
+	
+	.comment_word p {
+		text-indent: 8px;
+		font-family: Verdana,sans-serif;
+	}
+	
+	.comment_word {
+    	margin-top:16px;
+	}

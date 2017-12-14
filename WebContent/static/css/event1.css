@@ -1,0 +1,105 @@
+	.wrap {
+		margin:20px auto;
+		width:1000px;
+	}
+	
+	.left {
+		width: 70%;
+		float:left;
+	}
+	
+	.recipe{
+		font-family: Verdana,sans-serif;
+		line-height:30px;
+	}
+	
+	.recipe .title {
+		text-align: center;
+	    font-size: 28px;
+	    color: #565353;
+	    letter-spacing: 2px;
+	    margin-top:20px;
+	}
+	
+	.recipe .light-font{
+		font-size:14px;
+		color:#666;
+	}
+	
+	.recipe .info{
+		font-size:14px;
+		color:#3c3a3a;
+	}
+	
+	
+	.demo_line{
+    letter-spacing: -1px;
+    color: #ddd;
+    font-size:12px;
+    margin-left:5%;
+	}
+	
+	.demo_line span{
+    letter-spacing: 0;
+    color: #222;
+    margin:0 150px;
+    }
+    
+	.wrap hr {
+		opacity:0.6;
+		margin-bottom:30px;
+	}
+	
+	.recipe .content p{
+		text-indent:2em;
+		margin-bottom:20px;
+		font-family: Verdana,sans-serif;
+	}
+	
+	
+	.joinButton .button{
+		width: 102px;
+	    height: 28px;
+	    line-height: 26px;
+	    border: 1px solid #1e80c2;
+	    background: #3498db;
+	    color: #fff;
+	    cursor: pointer;
+	    border-radius: 2px;
+	    transition: all 0.3s ease;
+	    float:right;
+	    margin: 19px;
+    	margin-right: 43%;
+	}
+	
+	.right {
+		width: 30%;
+		float:right;
+		text-align:left;
+	}
+	
+	.word {
+		text-align:center;
+		font-size:14px;
+		margin-top:30%;
+		font-family: Verdana,sans-serif;
+	}
+	
+	 .word .groupButton{
+		width: 200px;
+	    height: 40px;
+	    line-height: 26px;
+	    border: 1px solid #1e80c2;
+	    background: #db3231;
+	    color: #fff;
+	    cursor: pointer;
+	    border-radius: 2px;
+	    transition: all 0.3s ease;
+	    float:right;
+	    margin: 19px;
+    	margin-right: 15%;
+	}
+	
+	.clearfix {
+		clear: both;
+	}

@@ -1,0 +1,79 @@
+.post{
+		width: 100px;
+	    height: 28px;
+	    line-height: 26px;
+	    border: 1px solid #1e80c2;
+	    background: #3498db;
+	    color: #fff;
+	    cursor: pointer;
+	    border-radius: 50px;
+	    transition: all 0.3s ease;
+	    float:right;
+	    margin: 19px;
+    	margin-right: 22px;
+}
+.eventTag {
+	margin-top: 10px;
+	margin-bottom:20px;
+}
+		
+.eventTag .title {
+	margin-bottom: 10px;
+    border-bottom: 1px solid #cac5c5;
+    height: 30px;
+	text-indent:1em;
+	font-size:18px;
+	color:#666;
+}
+.eventTag .events {
+	margin-left:10px;
+}
+.eventTag .events .event {
+    width: 230px;
+    height: 320px;
+    background: #ccc;
+    margin: 20px;
+    float: left;
+    margin-right:20px;
+    cursor:pointer;
+    transition:all 0.2s ease;
+    border-top-left-radius:30px;
+    border-bottom-right-radius:30px;
+}
+
+.eventTag .events .event:hover {
+	transform:scale(1.05);
+}
+	
+.eventTag .events .event div {
+	text-align:center;
+}
+	
+.event-banner {
+	background: #0e665e;
+    color: #FFF;
+    border-top-left-radius:30px;
+    height:140px;
+}
+	
+.event-header {
+	font-size: 12px;
+    line-height: 52px;
+}
+	
+.event-title {
+    font-size: 22px;	
+}
+	
+.event-author {
+    font-size: 14px;
+    text-indent: 7em;
+    padding-bottom: 70px;
+}
+	
+.event-description {
+	background: #ffda1d;
+    height: 180px;
+    font-size: 12px;
+    border-bottom-right-radius:30px;
+}
